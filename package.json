@@ -1,10 +1,13 @@
 {
+  "homepage": "https://BartlomiejKiezun.github.io/bartlomiej_kiezun_web_wroclaw",
   "name": "bartlomiej_kiezu_web_wroclaw",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
