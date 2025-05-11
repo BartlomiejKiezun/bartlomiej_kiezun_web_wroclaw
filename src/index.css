@@ -1,0 +1,70 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #003153;
+  background-image: linear-gradient(315deg, #003153 0%, #1B1B1B 74%);
+  color:aliceblue;
+
+}
+.productlist{
+  margin-left: auto;
+  margin-right: auto; 
+  float: left;
+  width: 1000px;
+
+}
+.cart{
+  width: 800px;
+  position: fixed;
+  right: 0 ;
+  top: 0;
+}
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #003153;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  
+}
+h3{
+  color: #838282;
+}
+
+button {
+  color: #1B1B1B;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.5em 1.1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #2b2727;
+  color: #87abb4;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
