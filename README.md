@@ -1,6 +1,4 @@
-# Aplikacja stworzona na potrzeby rekrutacji na staż do Ocado Technology 
-
-
+# Aplikacja React.js koszyk internetowy
 - W projekcie wykorzystane zostały technologie React.js, html, css.
 W aplikaci wykorzystano bibliotekę "REACT ROUTER DOM", dzieki której można obsłużyć routing aplikacji uruchomionej w przęglądarce. Aplikacja dzięki dynamicznym tras działa szybko bez konieczności odświeżania strony.
 
